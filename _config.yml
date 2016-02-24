@@ -13,7 +13,7 @@ paginate:         5
 
 # Dependencies
 markdown:         kramdown
-highlighter:      rogue
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
