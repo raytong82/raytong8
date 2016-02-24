@@ -4,7 +4,6 @@ highlighter:      rogue
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 # Setup
 title:            Hyde
