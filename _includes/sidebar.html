@@ -1,11 +1,9 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <h1>
-        <a href="{{ site.baseurl }}">
-          {{ site.title }}
-        </a>
-      </h1>
+      <h2>
+        {{ site.title }}
+      </h2>
       <p class="lead">{{ site.description }}</p>
     </div>
 
@@ -25,12 +23,8 @@
         {% endif %}
       {% endfor %}
 
-      {% if site.github != null %}
-      <a class="sidebar-nav-item" href="http://github.com/{{ site.github }}">GitHub</a>
-      {% endif %}
-      {% if site.github != null %}
-      <a class="sidebar-nav-item" href="http://www.linkedin.com/in/{{ site.linkedin }}">Linkedin</a>
-      {% endif %}
+      {% if site.github != null %}<a class="sidebar-nav-item" href="http://github.com/{{ site.github }}"><i class="svg-icon linkedin">GitHub</i></a>{% endif %}
+      {% if site.github != null %}<a class="sidebar-nav-item" href="http://www.linkedin.com/in/{{ site.linkedin }}"><i class="svg-icon linkedin">Linkedin</i></a>{% endif %}
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
