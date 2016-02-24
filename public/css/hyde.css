@@ -93,10 +93,20 @@ html {
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+}
+
+i.fa.fa-github {
+  color: #f70;
+}
+i.fa.fa-twitter {
+  color: #5ae;
+}
+i.fa.fa-linkedin {
+  color: #07b;
 }
 
 /* Sticky sidebar
