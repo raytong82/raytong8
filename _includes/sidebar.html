@@ -23,8 +23,8 @@
         {% endif %}
       {% endfor %}
 
-      {% if site.github != null %}<a class="sidebar-nav-item" href="http://github.com/{{ site.github }}"><i class="svg-icon linkedin">GitHub</i></a>{% endif %}
-      {% if site.github != null %}<a class="sidebar-nav-item" href="http://www.linkedin.com/in/{{ site.linkedin }}"><i class="svg-icon linkedin">Linkedin</i></a>{% endif %}
+      {% if site.github != null %}<a class="sidebar-nav-item" href="http://github.com/{{ site.github }}">{% icon fa-github %}GitHub</a>{% endif %}
+      {% if site.github != null %}<a class="sidebar-nav-item" href="http://www.linkedin.com/in/{{ site.linkedin }}">{% icon fa-linkedin-square %}Linkedin</a>{% endif %}
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>
