@@ -18,6 +18,8 @@ author:
 
 paginate:         5
 
+gems:             [jekyll-font-awesome]
+
 # Custom vars
 version:          3.1.2
 
