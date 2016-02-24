@@ -99,13 +99,13 @@ a.sidebar-nav-item:focus {
   font-weight: bold;
 }
 
-i.fa.fa-github {
+i.fa.fa-github:hover {
   color: #f70;
 }
-i.fa.fa-twitter {
+i.fa.fa-twitter:hover {
   color: #5ae;
 }
-i.fa.fa-linkedin {
+i.fa.fa-linkedin:hover {
   color: #07b;
 }
 
