@@ -7,7 +7,7 @@ permalink:        pretty
 
 # Setup
 title:            Raymond Tong
-tagline:          XX_TAGLINE_XX
+tagline:          'Blog, gists, ..'
 description:      Software engineer passionate on technologies
 url:              http://raytong82.github.io/
 baseurl:          /
@@ -21,5 +21,5 @@ paginate:         5
 # Custom vars
 version:          3.1.2
 
-github:
-  repo:           https://github.com/raytong82
+github:           raytong82
+linkedin:         raytong
