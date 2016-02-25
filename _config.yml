@@ -43,7 +43,7 @@ jekyll-archives:
     category: archive-tag
     tag: archive-tag
   permalinks:
-    year: '/archive/:year/'
-    month: '/archive/:year/:month/'
-    tag: '/archive/tag/:name/'
-    category: '/archive/category/:name/'
+    year: '/:year/'
+    month: '/:year/:month/'
+    tag: '/tag/:name/'
+    category: '/category/:name/'
