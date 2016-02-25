@@ -12,7 +12,7 @@
 
       {% comment %}
         The code below dynamically generates a sidebar nav of pages with
-        `layout: page` in the front-matter. See readme for usage.
+        `layout: page` in the front-matter
       {% endcomment %}
 
       {% for node in site.pages %}
@@ -23,9 +23,13 @@
         {% endif %}
       {% endfor %}
 
-      {% if site.github != null %}<a class="sidebar-nav-item" href="http://github.com/{{ site.github }}"><i class="fa fa-github"> GitHub</i></a>{% endif %}
-      {% if site.twitter != null %}<a class="sidebar-nav-item" href="http://twitter.com/{{ site.twitter }}"><i class="fa fa-twitter"> Twitter</i></a>{% endif %}
-      {% if site.linkedin != null %}<a class="sidebar-nav-item" href="http://www.linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"> Linkedin</i></a>{% endif %}
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="/archive">Archives</a>
+
     </nav>
+    <div class="sidebar-icon-group">
+      {% if site.social.github != null %}<a class="sidebar-icon" href="http://github.com/{{ site.social.github }}"><i class="fa fa-github"></i></a>{% endif %}
+      {% if site.social.twitter != null %}<a class="sidebar-icon" href="http://twitter.com/{{ site.social.twitter }}"><i class="fa fa-twitter"></i></a>{% endif %}
+      {% if site.social.linkedin != null %}<a class="sidebar-icon" href="http://www.linkedin.com/in/{{ site.social.linkedin }}"><i class="fa fa-linkedin"></i></a>{% endif %}
+    </div>
   </div>
 </div>

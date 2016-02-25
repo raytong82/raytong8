@@ -1,6 +1,7 @@
 ---
 layout: post
-title: What's Jekyll?
+title: testing
+tag: test
 ---
 
 My first blog post

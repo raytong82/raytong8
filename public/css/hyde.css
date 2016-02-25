@@ -94,9 +94,14 @@ html {
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
+  color: #999;
 }
 .sidebar-nav-item.active {
   font-weight: bold;
+}
+
+.sidebar-icon-group {
+  margin-top: 1rem;
 }
 
 i.fa.fa-github:hover {
@@ -106,7 +111,7 @@ i.fa.fa-twitter:hover {
   color: #5ae;
 }
 i.fa.fa-linkedin:hover {
-  color: #07b;
+  color: #27b;
 }
 
 /* Sticky sidebar

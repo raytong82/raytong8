@@ -1,0 +1,18 @@
+---
+layout: default
+title: Annual Archive
+description: 'Links to all of the yearly archives for the posts on this website'
+tag: index
+years:
+  - 2016
+  - 2015
+
+---
+{% assign years = page.years %}
+{% for year in years %}
+  <article class="item--short">
+    <div class="item--short-description">
+      <h1><a href="/archive/{{ year }}/">{{ year }}</a></h1>
+    </div>
+  </article>
+{% endfor %}

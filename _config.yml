@@ -9,7 +9,11 @@ author:
   name:           'Raymond Tong'
   url:            http://raytong82.github.io/
 
-paginate:         5
+social:
+  github:           raytong82
+  linkedin:         raytong
+  twitter:          raytong82
+
 
 # Dependencies
 markdown:         kramdown
@@ -22,12 +26,24 @@ permalink:        pretty
 version: 3.1.2
 
 gems:
-   - jekyll-mentions
-   - jemoji
-   - jekyll-redirect-from
-   - jekyll-sitemap
-   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-archives
 
-github:           raytong82
-linkedin:         raytong
-twitter:          raytong82
+paginate: 5
+
+jekyll-archives:
+  enabled:
+    - year
+    - month
+    - categories
+    - tags
+  layouts:
+    year: archive-time
+    month: archive-time
+    category: archive-tag
+    tag: archive-tag
+  permalinks:
+    year: '/archive/:year/'
+    month: '/archive/:year/:month/'
+    tag: '/archive/tag/:name/'
+    category: '/archive/category/:name/'
