@@ -11,9 +11,18 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
+    <span class="post-date">
+      {{ post.date | date_to_string }}
+      <span class="post-tags">
+      {% for tag in post.tags %}
+        <span class="tags-item">
+          <a href="/tag/{{ tag | first }}/">
+            <i class="fa fa-tags"></i> {{ tag }}
+          </a>
+        </span>
+      {% endfor %}
+      </span>
+    </span>
     {{ post.content }}
   </div>
   {% endfor %}

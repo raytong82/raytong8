@@ -34,6 +34,7 @@ a.sidebar-nav-item:focus {
 
 /** custom css */
 
+/** side bar */
 .sidebar-icon-group {
   margin-top: 1rem;
 }
@@ -48,18 +49,7 @@ i.fa.fa-linkedin:hover {
   color: #27b;
 }
 
-
-div.tags-item > i.fa.fa-tags:hover {
-  color: #4a6;
-}
-div.tags-item > a:hover {
-  color: #4a6;
-  text-decoration: none;
-}
-div.tags-item:hover {
-  font-size: 1.2rem;
-}
-
+/** tags archives */
 div.tag-year {
   font-size: 1.5rem;
   font-weight: bold;
@@ -68,4 +58,34 @@ div.tag-year {
 span.tag-date {
   font-size: 0.7rem;
   color: #999;
+}
+
+.tags-item:hover {
+  padding-left: 1rem;
+}
+
+div.tags-item > i.fa.fa-tags:hover {
+  color: #4a6;
+}
+div.tags-item > a:hover {
+  color: #4a6;
+  text-decoration: none;
+}
+
+/** posts */
+span.post-tags > .tags-item >i.fa.fa-tags:hover {
+  color: #4a6;
+}
+span.post-tags > .tags-item > a:hover {
+  color: #4a6;
+  text-decoration: none;
+}
+
+/** post */
+span.page-tags > .tags-item > i.fa.fa-tags:hover {
+  color: #4a6;
+}
+span.page-tags > .tags-item > a:hover {
+  color: #4a6;
+  text-decoration: none;
 }
