@@ -50,7 +50,14 @@ i.fa.fa-linkedin:hover {
 }
 
 /** tags archives */
+div.tag-header {
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #4a6;
+}
+
 div.tag-year {
+  margin-top: 1rem;
   font-size: 1.5rem;
   font-weight: bold;
 }
