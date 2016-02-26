@@ -1,0 +1,47 @@
+.sidebar {
+  padding: 0.5rem 0.5rem;
+}
+
+.sidebar-about h2 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "Abril Fatface", serif;
+  font-size: 1.55rem;
+}
+
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  text-decoration: none;
+  color: #999;
+}
+
+.sidebar-nav {
+  margin-bottom: 0rem;
+}
+
+.sidebar-icon-group {
+  margin-top: 1rem;
+}
+
+i.fa.fa-github:hover {
+  color: #f70;
+}
+i.fa.fa-twitter:hover {
+  color: #5ae;
+}
+i.fa.fa-linkedin:hover {
+  color: #27b;
+}
+
+.lead {
+  font-size: 1.15rem;
+  font-weight: 300;
+}
+
+.container {
+  max-width: 38rem;
+  padding-left:  0.5rem;
+  padding-right: 0.5rem;
+  margin-left:  auto;
+  margin-right: auto;
+}

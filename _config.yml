@@ -27,23 +27,5 @@ version: 3.1.2
 
 gems:
   - jekyll-paginate
-  - jekyll-archives
 
 paginate: 5
-
-jekyll-archives:
-  enabled:
-    - year
-    - month
-    - categories
-    - tags
-  layouts:
-    year: archive-time
-    month: archive-time
-    category: archive-tag
-    tag: archive-tag
-  permalinks:
-    year: '/:year/'
-    month: '/:year/:month/'
-    tag: '/tag/:name/'
-    category: '/category/:name/'

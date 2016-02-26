@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<div class="tag-container">
+  {% if site.tags[page.tag] %}
+    {% assign previous_index = -1 %}
+    {% assign previous_post_year = -1 %}
+    {% for post in site.tags[page.tag] %}
+      {% assign post_year = post.date | date: '%Y' %}
+      {% if post_year != previous_post_year %}
+        <div class="tag-year">{{ post_year }}</div>
+      {% endif %}
+      <div class="tag-item">{{ post.date | date_to_string }} <a href="{{ post.url }}/" class="tag-item-link">{{ post.title }}</a></div>
+      {% assign previous_post_year = post_year %}
+    {% endfor %}
+  {% endif %}
+</div>

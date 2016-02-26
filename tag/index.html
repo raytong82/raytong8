@@ -1,0 +1,14 @@
+---
+layout: default
+title: Tag Archive
+description: 'Links to all of the TAG archives for the posts on this website'
+---
+<div class="tags-container">
+{% assign tags = site.tags | sort %}
+{% for tag in tags %}
+  <div class="tags-item">
+    <a href="/tag/{{ tag | first }}/">
+      <i class="fa fa-tags"></i> {{ tag | first }}<small> - {{ tag[1].size }} item(s)</small></a>
+  </div>
+{% endfor %}
+</div>
