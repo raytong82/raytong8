@@ -1,6 +1,7 @@
 ---
 layout: post
 title: testing
+category: others
 tag: test
 ---
 
