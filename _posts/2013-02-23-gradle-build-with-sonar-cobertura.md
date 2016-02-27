@@ -16,24 +16,20 @@ tag:
 *  It seems sonar 3.4+ requires Gradle 1.5
 * Sonar default to use Jacoco instead of Cobertura for code coverage but Jacoco for Gradle fairly new and may have issue
 {% highlight groovy linenos %}
-{% raw %}
 apply plugin: 'java'
 apply plugin: 'groovy'
 apply plugin: 'scala'
 apply plugin: 'sonar'
 apply plugin: 'cobertura'
-
 repositories {
     mavenCentral()
 }
-
 dependencies {
   compile group: 'org.codehaus.groovy', name:'groovy-all', version: '2.+'
   compile group: 'org.scala-lang', name: 'scala-library', version: '2.9.2'
   testCompile group: 'junit', name: 'junit', version: '4.+'
   testCompile group: 'org.scalatest', name: 'scalatest_2.9.2', version: '1.9.1'
 }
-
 buildscript {
   repositories {
     mavenCentral()
@@ -42,7 +38,6 @@ buildscript {
     classpath "net.saliman:gradle-cobertura-plugin:1.1.1"
   }
 }
-
 sonar {
   server {
     url = "http://localhost:9000"
@@ -59,5 +54,4 @@ sonar {
     testReportPath = file("$buildDir/test-results")
   }
 }
-{% endraw %}
 {% endhighlight %}
