@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Gradle build for Java, Groovy and Scala
+title: "Gradle build for Java, Groovy and Scala""
 category: programming
 tag:
   - gradle
