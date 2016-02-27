@@ -13,7 +13,7 @@ layout: default
       {% if post_year != previous_post_year %}
         <div class="tag-year">{{ post_year }}</div>
       {% endif %}
-      <div class="tag-item"><a href="{{ post.url }}/" class="tag-item-link">{{ post.title }}</a> <span class="tag-date">{{ post.date | date_to_string }}</span></div>
+      <div class="tag-item"><a href="{{ post.url }}" class="tag-item-link">{{ post.title }}</a> <span class="tag-date">{{ post.date | date_to_string }}</span></div>
       {% assign previous_post_year = post_year %}
     {% endfor %}
   {% endif %}

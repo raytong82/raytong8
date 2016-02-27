@@ -46,8 +46,14 @@ i.fa.fa-github:hover {
 i.fa.fa-twitter:hover {
   color: #5ae;
 }
-i.fa.fa-linkedin:hover {
+i.fa.fa-linkedin-square:hover {
   color: #27b;
+}
+i.fa.fa-google-plus-square:hover {
+  color: #c43;
+}
+i.fa.fa-bold:hover {
+  color: #e60;
 }
 
 /** tags archives */

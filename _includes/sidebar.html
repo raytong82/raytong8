@@ -28,8 +28,10 @@
     </nav>
     <div class="sidebar-icon-group">
       {% if site.social.github != null %}<a class="sidebar-icon" href="http://github.com/{{ site.social.github }}"><i class="fa fa-github"></i></a>{% endif %}
+      {% if site.social.linkedin != null %}<a class="sidebar-icon" href="http://www.linkedin.com/in/{{ site.social.linkedin }}"><i class="fa fa-linkedin-square"></i></a>{% endif %}
       {% if site.social.twitter != null %}<a class="sidebar-icon" href="http://twitter.com/{{ site.social.twitter }}"><i class="fa fa-twitter"></i></a>{% endif %}
-      {% if site.social.linkedin != null %}<a class="sidebar-icon" href="http://www.linkedin.com/in/{{ site.social.linkedin }}"><i class="fa fa-linkedin"></i></a>{% endif %}
+      {% if site.social.googleplus != null %}<a class="sidebar-icon" href="http://plus.google.com/{{ site.social.googleplus }}"><i class="fa fa-google-plus-square"></i></a>{% endif %}
+      {% if site.social.blogspot != null %}<a class="sidebar-icon" href="http://{{ site.social.blogspot }}.blogspot.com"><i class="fa fa-bold"></i></a>{% endif %}
     </div>
   </div>
 </div>
