@@ -7,7 +7,6 @@ tag:
   - heroku
   - git
   - github
-  - api
   - travis
 ---
 
