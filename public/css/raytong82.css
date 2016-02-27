@@ -26,11 +26,9 @@ a.sidebar-nav-item:focus {
 }
 
 .container {
-  max-width: 38rem;
+  max-width: 48rem;
   padding-left:  0rem;
   padding-right: 0rem;
-  margin-left:  auto;
-  margin-right: auto;
 }
 
 /** custom css */
@@ -118,4 +116,9 @@ a.pagination-item:active {
   color: #4a6;
   text-decoration: none;
   background-color: #ddd;
+}
+
+/** syntax highlights */
+pre {
+  padding: 0rem;
 }
