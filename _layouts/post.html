@@ -6,7 +6,7 @@ layout: default
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">
     {{ page.date | date_to_string }}
-    <span class="page-tags">
+    <span class="post-tags">
     {% for tag in page.tags %}
       <span class="tags-item">
         <a href="/tag/{{ tag }}/">
@@ -17,4 +17,17 @@ layout: default
     </span>
   </span>
   {{ content }}
+</div>
+
+<div class="pagination">
+  {% if page.previous %}
+    <a class="pagination-item older" href="{{ page.previous.url }}"><i class="fa fa-angle-left"></i>Older</a>
+  {% else %}
+    <span class="pagination-item older"><i class="fa fa-angle-left"></i>Older</span>
+  {% endif %}
+  {% if page.next %}
+    <a class="pagination-item newer" href="{{ page.next.url }}">Newer<i class="fa fa-angle-right"></i></a>
+  {% else %}
+    <span class="pagination-item newer">Newer<i class="fa fa-angle-right"></i>></span>
+  {% endif %}
 </div>

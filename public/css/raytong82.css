@@ -96,3 +96,19 @@ span.page-tags > .tags-item > a:hover {
   color: #4a6;
   text-decoration: none;
 }
+
+/** pagination */
+i.fa.fa-angle-left,
+i.fa.fa-angle-double-left {
+  margin-right: 0.5rem;
+}
+i.fa.fa-angle-right,
+i.fa.fa-angle-double-right {
+  margin-left: 0.5rem;
+}
+a.pagination-item:hover,
+a.pagination-item:active {
+  color: #4a6;
+  text-decoration: none;
+  background-color: #ddd;
+}
