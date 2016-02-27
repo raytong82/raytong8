@@ -16,6 +16,8 @@ social:
   googleplus:       114437443659417372051
   blogspot:         codingrecipes
 
+exclude: ["vendor"]
+
 # Dependencies
 markdown:         kramdown
 kramdown:
