@@ -20,20 +20,18 @@ yum upgrade logstash
 * update config
   - [hosts](https://www.elastic.co/guide/en/logstash/current/plugins-outputs-elasticsearch.html#plugins-outputs-elasticsearch-hosts)
   - [template overwrite](https://www.elastic.co/guide/en/logstash/current/_upgrading_logstash_and_elasticsearch_to_2_0.html)
-{% highlight text %}
-{% raw %}
+{% highlight shell %}
 elasticsearch {
   bind_host => "127.0.0.1"
   protocol => http
 }
-
+{% endhighlight %}
 to
-
+{% highlight shell %}
 elasticsearch {
   hosts => ["127.0.0.1:9200"]
   template_overwrite => true
 }
-{% endraw %}
 {% endhighlight %}
 * verify config ok
 {% highlight shell %}
