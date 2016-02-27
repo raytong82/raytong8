@@ -1,11 +1,5 @@
 /** override css */
-html {
-  font-size: 16px;
-}
-
-h1 {
-  font-size: 1.6rem;
-}
+.html {}
 
 .sidebar {
   padding: 0.5rem 0.5rem;
@@ -43,7 +37,6 @@ a.sidebar-nav-item:focus {
 /** side bar */
 .sidebar-icon-group {
   margin-top: 1rem;
-  font-size: 1.4rem;
 }
 
 i.fa.fa-github:hover {
@@ -53,22 +46,16 @@ i.fa.fa-twitter:hover {
   color: #5ae;
 }
 i.fa.fa-linkedin-square:hover {
-  color: #25f;
+  color: #27b;
 }
 i.fa.fa-google-plus-square:hover {
-  color: #f21;
+  color: #c43;
 }
 i.fa.fa-bold:hover {
-  color: #f70;
+  color: #e60;
 }
 
-/** tags archives */
-div.tag-header {
-  font-size: 2.0rem;
-  font-weight: bold;
-  color: #4a6;
-}
-
+/** tags */
 div.tag-year {
   margin-top: 1rem;
   font-size: 1.5rem;
@@ -80,33 +67,32 @@ span.tag-date {
   color: #999;
 }
 
-.tags-item:hover {
-  padding-left: 1rem;
+span.tag-header {
+  font-size: 2.0rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #268bd2;
+  border-radius: 4px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
-div.tags-item > i.fa.fa-tags:hover {
-  color: #4a6;
-}
-div.tags-item > a:hover {
-  color: #4a6;
-  text-decoration: none;
+span.tags-item {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
 }
 
-/** posts */
-span.post-tags > .tags-item >i.fa.fa-tags:hover {
-  color: #4a6;
-}
-span.post-tags > .tags-item > a:hover {
-  color: #4a6;
-  text-decoration: none;
+span.tags-item:hover {
+  color: #fff;
+  background-color: #268bd2;
+  border-radius: 4px;
 }
 
-/** post */
-span.page-tags > .tags-item > i.fa.fa-tags:hover {
-  color: #4a6;
+span.tags-item > i.fa.fa-tags:hover {
+  color: #fff;
 }
-span.page-tags > .tags-item > a:hover {
-  color: #4a6;
+span.tags-item > a:hover {
+  color: #fff;
   text-decoration: none;
 }
 

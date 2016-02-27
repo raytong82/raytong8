@@ -7,10 +7,12 @@ description: 'Links to all of the TAG archives for the posts on this website'
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
   <!--{{ tag | first }}-->
-  <div class="tags-item">
-    <a href="/tag/{{ tag | first }}/">
-      <i class="fa fa-tags"></i> {{ tag | first }}<small> - {{ tag[1].size }} item(s)</small>
-    </a>
+  <div class="tags-item-container">
+    <span class="tags-item">
+      <a href="/tag/{{ tag | first }}/">
+        <i class="fa fa-tags"></i> {{ tag | first }}<small> - {{ tag[1].size }} item(s)</small>
+      </a>
+    </span>
   </div>
 {% endfor %}
 </div>
