@@ -8,6 +8,8 @@ tag:
   - groovy
   - scala
   - scalatest
+  - junit
+  - build
 ---
 
 *  Make sure scala and scalatest are binary compatible

@@ -1,4 +1,11 @@
 /** override css */
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
 
 .sidebar {
   padding: 0.5rem 0.5rem;
@@ -36,6 +43,7 @@ a.sidebar-nav-item:focus {
 /** side bar */
 .sidebar-icon-group {
   margin-top: 1rem;
+  font-size: 1.4rem;
 }
 
 i.fa.fa-github:hover {
@@ -45,13 +53,13 @@ i.fa.fa-twitter:hover {
   color: #5ae;
 }
 i.fa.fa-linkedin-square:hover {
-  color: #27b;
+  color: #25f;
 }
 i.fa.fa-google-plus-square:hover {
-  color: #c43;
+  color: #f21;
 }
 i.fa.fa-bold:hover {
-  color: #e60;
+  color: #f70;
 }
 
 /** tags archives */
