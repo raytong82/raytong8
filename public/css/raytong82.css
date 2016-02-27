@@ -1,5 +1,11 @@
 /** override css */
-.html {}
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
 
 .sidebar {
   padding: 0.5rem 0.5rem;
