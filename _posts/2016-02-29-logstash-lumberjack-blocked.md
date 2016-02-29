@@ -10,7 +10,7 @@ tag:
 
 **Problem**
 
-{% highlight javascript %}
+{% highlight shell linenos %}
 {:timestamp=>"2016-02-29T05:14:19.433000+0000", :message=>"CircuitBreaker::rescuing exceptions", :name=>"Lumberjack input", :exception=>LogStash::SizedQueue
 Timeout::TimeoutError, :level=>:warn}
 {:timestamp=>"2016-02-29T05:14:19.438000+0000", :message=>"Lumberjack input: The circuit breaker has detected a slowdown or stall in the pipeline, the input
