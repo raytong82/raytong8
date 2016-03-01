@@ -25,6 +25,7 @@ a.sidebar-nav-item:focus {
 
 .sidebar-nav {
   margin-bottom: 0rem;
+  font-size: 1.2rem;
 }
 
 .lead {
@@ -43,6 +44,7 @@ a.sidebar-nav-item:focus {
 /** side bar */
 .sidebar-icon-group {
   margin-top: 1rem;
+  font-size: 1.5rem;
 }
 
 i.fa.fa-github:hover {

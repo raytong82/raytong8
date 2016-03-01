@@ -6,7 +6,6 @@ description: 'Links to all of the TAG archives for the posts on this website'
 <div class="tags-container">
 {% assign tags = site.tags | sort %}
 {% for tag in tags %}
-  <!--{{ tag | first }}-->
   <div class="tags-item-container">
     <span class="tags-item">
       <a href="/tag/{{ tag | first }}/">
