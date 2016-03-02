@@ -20,7 +20,8 @@ h1 {
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
-  color: #999;
+  color: #268bd2;
+  font-weight: bold;
 }
 
 .sidebar-nav {
@@ -115,9 +116,10 @@ i.fa.fa-angle-double-right {
 }
 a.pagination-item:hover,
 a.pagination-item:active {
-  color: #4a6;
   text-decoration: none;
-  background-color: #ddd;
+  font-weight: bold;
+  color: #fff;
+  background-color: #268bd2;
 }
 
 /** syntax highlights */
