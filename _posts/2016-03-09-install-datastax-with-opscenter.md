@@ -19,13 +19,13 @@ yum install opscenter
 * create a dedicated data and commit_log directory if needed
   - it would be good practice to have the directory on different physical disk to avoid competing IO resources (unless you use SSD)
 * edit cassandra configuration
-{% endhighlight %}
+{% highlight shell %}
 vi /etc/dse/cassandra/cassandra.yaml
-{% highlight shell %}
-* edit cassandra JVM configuration if needed
 {% endhighlight %}
-vi /etc/dse/cassandra/cassandra-env.sh
+* edit cassandra JVM configuration if needed
 {% highlight shell %}
+vi /etc/dse/cassandra/cassandra-env.sh
+{% endhighlight %}
 * edit data-agent configuration pointing to opscenter host
 {% highlight shell %}
 vi /var/lib/datastax-agent/conf/address.yaml
