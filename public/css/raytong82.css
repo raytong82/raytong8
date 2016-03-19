@@ -63,6 +63,9 @@ i.fa.fa-google-plus-square:hover {
 i.fa.fa-bold:hover {
   color: #e60;
 }
+i.fa.fa-medium:hover {
+  color: #0c4;
+}
 
 /** tags */
 div.tag-year {
