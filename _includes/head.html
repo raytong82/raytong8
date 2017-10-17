@@ -13,6 +13,11 @@
       {{ site.title }} - {{ page.title }}
     {% endif %}
   </title>
+  
+  <!-- Google Analytics -->
+  {% if site.google_analytics and jekyll.environment == 'production' %}
+  {% include analytics.html %}
+  {% endif %}
 
   <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}public/css/poole.css">
