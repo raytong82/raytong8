@@ -17,6 +17,9 @@ social:
   blogspot:         codingrecipes
   medium:           raytong82
 
+# Google Analytics
+google_analytics: UA-106161867-3
+
 exclude: ["vendor"]
 
 # Dependencies
